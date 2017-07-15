@@ -6,11 +6,11 @@
     <title>Fresh Tomatoes!</title>
 
     <!-- Bootstrap 3 -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-    <link rel="icon" href="//www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="icon" href="http://www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png">
     <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
@@ -62,7 +62,7 @@
         // Start playing the video whenever the trailer modal is opened
         $(document).on('click', '.movie-tile', function (event) {
             var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
-            var sourceUrl = '//www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
             $("#trailer-video-container").empty().append($("<iframe></iframe>", {
               'id': 'trailer-video',
               'type': 'text-html',
@@ -85,7 +85,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
-            <img src="//lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+            <img src="http://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
           </a>
           <div class="scale-media" id="trailer-video-container">
           </div>
@@ -98,40 +98,49 @@
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
+<<<<<<< Updated upstream:index.html
             Fresh Tomatoes Movie Trailers
+=======
+<<<<<<< HEAD:movietrailer.html
+            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <img src="http://www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png" width="50" height="50" alt="">
+=======
+            Fresh Tomatoes Movie Trailers
+>>>>>>> origin/master:index.html
+>>>>>>> Stashed changes:movietrailer.html
           </div>
         </div>
       </div>
     </div>
     <div class="container">
-      
+
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="JcpWXaA2qeg?t=7s" data-toggle="modal" data-target="#trailer">
-    <img src="//www.impawards.com/2010/posters/toy_story_three_ver10.jpg" width="220" height="342">
+    <img src="img/toy-story-3.jpg" width="220" height="342">
     <h2>Toy Story 3</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="cdnoqCViqUo?t=7s" data-toggle="modal" data-target="#trailer">
-    <img src="//www.impawards.com/2013/posters/internship_ver8.jpg" width="220" height="342">
+    <img src="img/the-internship.jpg" width="220" height="342">
     <h2>The Internship</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="qas5lWp7_R0?t=7s" data-toggle="modal" data-target="#trailer">
-    <img src="http://funfilledflicks.com/wp-content/uploads/2013/05/Up-Official-Movie-Poster.jpg" width="220" height="342">
+    <img src="img/up.jpg" width="220" height="342">
     <h2>Up</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="IHBLbGvwO6I" data-toggle="modal" data-target="#trailer">
-    <img src="//images-na.ssl-images-amazon.com/images/M/MV5BMjIwNzE5MTgwNl5BMl5BanBnXkFtZTgwNjM4OTA0OTE@._V1_UY1200_CR90,0,630,1200_AL_.jpg" width="220" height="342">
+    <img src="img/bad-moms.jpg" width="220" height="342">
     <h2>Bad Moms</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="FAfR8omt-CY" data-toggle="modal" data-target="#trailer">
-    <img src="https://sojourningabroad.files.wordpress.com/2012/06/midnight_in_paris.jpg" width="220" height="342">
+    <img src="img/midnight-in-paris.jpg" width="220" height="342">
     <h2>Midnight in Paris</h2>
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="wzMW991EHGg" data-toggle="modal" data-target="#trailer">
-    <img src="//images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg" width="220" height="342">
+    <img src="img/dark-knight.jpg" width="220" height="342">
     <h2>Dark Knight</h2>
 </div>
 
