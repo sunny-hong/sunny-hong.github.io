@@ -60,7 +60,7 @@
             $("#trailer-video-container").empty();
         });
         // Start playing the video whenever the trailer modal is opened
-        $(document).on('click', '.movie-tile', function (event) {
+        $(document).on('click', '.movie-tile', fun ction (event) {
             var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
             var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
             $("#trailer-video-container").empty().append($("<iframe></iframe>", {
@@ -99,7 +99,7 @@
         <div class="container">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
-            <img src="//www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png" width="50" height="50" alt="">
+            <img src="http://www.pngmart.com/files/1/Tomato-Clip-Art-PNG.png" width="50" height="50" alt="">
           </div>
         </div>
       </div>
