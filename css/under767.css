@@ -65,14 +65,14 @@ classes and id's.
 .upper {
   /*Photo by Brooke Lark on Unsplash*/
   height: 200px;
-  background-image: url("../img/yellow.jpg") ;
-  position: relative;
+  /*background-image: url("../img/yellow.jpg") ;*/
+  /*position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 70px;
-  min-width: 320px;
+  min-width: 320px;*/
 
 }
 
