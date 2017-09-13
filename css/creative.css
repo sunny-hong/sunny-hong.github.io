@@ -104,7 +104,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: rgb(43,140,74);
 }
 
 .navbar-default .nav > li>a,
@@ -168,7 +168,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: rgb(43,140,74);
     }
 
     .navbar-default.affix .nav > li>a,
@@ -345,13 +345,27 @@ header .header-content .header-content-inner p {
     color: rgb(198, 107, 125);
 }
 
+.fa-envelope-o {
+    /*content: url("../img/Logo/envelope.png") !important;*/
+    background-size: 40px 40px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    /*content:"";*/
+}
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
 }
 
-
+.fa-linkedin {
+    /*content: url("../img/Logo/linkedin.png") !important;*/
+    background-size: 40px 40px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
 
 .caligraphy {
     content: url("../img/Logo/signature.png") !important;
@@ -432,9 +446,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: rgb(43,140,74);
     color: #fff;
-    background-color: #ee4b28;
+    background-color: rgb(43,140,74);
 }
 
 .btn-primary:active,
