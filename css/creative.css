@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 @import url('https://rsms.me/interface/interface.css');
+
 html,
 body {
     width: 100%;
@@ -16,7 +17,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: rgb(198, 107, 125);
     border-width: 3px;
 }
 
@@ -25,7 +26,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: rgb(43,140,74);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,9 +34,12 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #ccc;
 }
+.type-font {
+    font-family: monospace, 'Open Sans','Helvetica Neue',Arial,sans-serif;
 
+}
 h1,
 h2,
 h3,
@@ -44,7 +48,9 @@ h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
-
+.align-left {
+    text-align: left;
+}
 p {
     margin-bottom: 20px;
     font-size: 16px;
@@ -54,7 +60,7 @@ p {
     border-spacing: 100px;
 }
 .bg-primary {
-    background-color: #f05f40;
+    background-color: rgb(198, 107, 125);
 }
 
 .bg-dark {
@@ -85,13 +91,14 @@ aside {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    height:100px;
 }
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    color: rgb(198, 107, 125);
 
 }
 
@@ -110,12 +117,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: rgb(198, 107, 125);
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: rgb(198, 107, 125)!important;
     background-color: transparent;
 }
 
@@ -156,7 +163,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: rgb(198, 107, 125);
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -171,7 +178,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: rgb(198, 107, 125);
     }
 }
 
@@ -221,7 +228,6 @@ header .header-content .header-content-inner p {
     header {
         min-height: 100%;
     }
-
     header .header-content {
         position: absolute;
         top: 50%;
@@ -281,7 +287,6 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     background: rgba(230,223,225,0.9);
-    /*background: rgba(240,95,64,.9);*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -330,39 +335,30 @@ header .header-content .header-content-inner p {
 }
 
 .fa-twitter {
-    content: url("../img/Logo/twitter.png") !important;
+    /*content: url("../img/Logo/twitter.png") !important;*/
     background-size: 40px 40px;
     display: inline-block;
     width: 40px;
     height: 40px;
 }
 .text-primary {
-    color: #f05f40;
+    color: rgb(198, 107, 125);
 }
 
-.fa-envelope-o {
-    content: url("../img/Logo/envelope.png") !important;
-    background-size: 40px 40px;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    /*content:"";*/
-}
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
 }
 
-.fa-linkedin {
-    content: url("../img/Logo/linkedin.png") !important;
-    background-size: 40px 40px;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
+
+
+.caligraphy {
+    content: url("../img/Logo/signature.png") !important;
+    width: 100px;
+    height: 55px;
+    position: relative;
 }
-
-
 
 
 
@@ -422,7 +418,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #ffffff;
     color: #fff;
-    background-color: #f05f40;
+    background-color: rgb(198, 107, 125);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -465,12 +461,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #f05f40;
+    border-color: rgb(198, 107, 125);
+    background-color: rgb(198, 107, 125);
 }
 
 .btn-primary .badge {
-    color: #f05f40;
+    color: rgb(198, 107, 125);
     background-color: #fff;
 }
 
