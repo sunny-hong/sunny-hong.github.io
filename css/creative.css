@@ -286,7 +286,10 @@ header .header-content .header-content-inner p {
 
     }
 }
-
+#projects {
+    text-transform: uppercase;
+    text-align: center;
+}
 .flex-about-me {
     position: relative;
     display: inline-flex;
