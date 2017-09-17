@@ -65,7 +65,8 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #272727;
+    background-color: #373737;
+    min-height: 50%;
 }
 
 .text-faded {
@@ -91,7 +92,7 @@ aside {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-    height:100px;
+    height:50px;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -185,7 +186,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 100%;
     text-align: center;
     color: #fff;
     /*background-image: url(/img/yellow.jpg);*/
@@ -270,6 +271,27 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
+.bg-red {
+    background-color: #f99;
+}
+.pro-pic {
+    content: url("../img/myface.jpg");
+    max-width: 100%;
+    max-height: 100%;
+}
+@media screen and (max-width:799px) {
+    .pro-pic {
+        max-width: 200px;
+        max-height: 200px;
+
+    }
+}
+
+.flex-about-me {
+    position: relative;
+    display: inline-flex;
+}
+
 .portfolio-box {
     display: block;
     position: relative;
@@ -345,32 +367,18 @@ header .header-content .header-content-inner p {
     color: rgb(198, 107, 125);
 }
 
-.fa-envelope-o {
-    /*content: url("../img/Logo/envelope.png") !important;*/
-    background-size: 40px 40px;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    /*content:"";*/
-}
+
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
 }
 
-.fa-linkedin {
-    /*content: url("../img/Logo/linkedin.png") !important;*/
-    background-size: 40px 40px;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
 
 .caligraphy {
     content: url("../img/Logo/signature.png") !important;
-    width: 100px;
-    height: 55px;
+    width: 80px;
+    height: 35px;
     position: relative;
 }
 
