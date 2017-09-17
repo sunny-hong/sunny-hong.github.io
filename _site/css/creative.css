@@ -70,9 +70,6 @@ p {
 }
 .bg-yellow {
     background-color: rgb(250,239,198);
-    color: #373737;
-    min-height: 30%;
-    max-height: 300px;
 }
 .text-faded {
     color: rgba(255,255,255,.7);
@@ -279,6 +276,20 @@ header .header-content .header-content-inner p {
 .bg-red {
     background-color: #f99;
 }
+.bg-pink {
+    background-color: rgb(230,223,225); /* E6DFE1 */
+    background: -webkit-linear-gradient(left top,#FcEBF9, rgb(230,223,225) , #FCF5F7, #FdF0Fe); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right , #FcEBF9,rgb(230,223,225), #FCF5F7, #FdF0Fe); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #FcEBF9,rgb(230,223,225), #FCF5F7, #FdF0Fe); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,#FcEBF9, rgb(230,223,225) , #FCF5F7, #FdF0Fe); /* Standard syntax */
+}
+#projects {
+    color: #373737;
+    min-height: 30%;
+    max-height: 300px;
+    text-transform: uppercase;
+    text-align: center;
+}
 .pro-pic {
     content: url("../img/myface.jpg");
     max-width: 100%;
@@ -291,9 +302,12 @@ header .header-content .header-content-inner p {
 
     }
 }
-#projects {
-    text-transform: uppercase;
-    text-align: center;
+
+#resume-icon {
+    color: #bbb;
+}
+#resume-icon:focus, #resume-icon:hover {
+    color: #fff;
 }
 .flex-about-me {
     position: relative;
@@ -364,13 +378,7 @@ header .header-content .header-content-inner p {
     margin: 0 auto 20px;
 }
 
-.fa-twitter {
-    /*content: url("../img/Logo/twitter.png") !important;*/
-    background-size: 40px 40px;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
+
 .text-primary {
     color: rgb(198, 107, 125);
 }

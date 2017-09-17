@@ -4,16 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- $(window).load(function () {
-     //normally you'd wait for document.ready, but you'd likely to want to wait
-     //for images to load in case they reflow the page
-     $('body').delay(1000) //wait 5 seconds
-         .animate({
-             //animate jQuery's custom "scrollTop" style
-             //grab the value as the offset of #second from the top of the page
-             'scrollTop': $('#about-me').offset().top
-         }, 1100); //animate over 300ms, change this to however long you want it to animate for
- });
 
 (function($) {
     "use strict"; // Start of use strict
@@ -25,6 +15,17 @@
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
+    });
+
+    $(window).load(function () {
+        //normally you'd wait for document.ready, but you'd likely to want to wait
+        //for images to load in case they reflow the page
+        $('body').delay(1000) //wait 1 second
+            .animate({
+                //animate jQuery's custom "scrollTop" style
+                //grab the value as the offset of #second from the top of the page
+                'scrollTop': $('#about-me').offset().top
+            }, 1100); //animate over 300ms, change this to however long you want it to animate for
     });
 
     // Highlight the top nav as scrolling occurs
