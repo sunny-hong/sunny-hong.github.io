@@ -222,7 +222,6 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
 }
 
 @media(min-width:768px) {
@@ -285,7 +284,6 @@ header .header-content .header-content-inner p {
     color: #373737;
     min-height: 30%;
     max-height: 300px;
-    text-transform: uppercase;
     text-align: center;
 }
 .pro-pic {
@@ -300,8 +298,7 @@ header .header-content .header-content-inner p {
 
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 #resume-icon {
     color: #bbb;
@@ -309,22 +306,12 @@ header .header-content .header-content-inner p {
 #resume-icon:focus, #resume-icon:hover {
     color: #fff;
 }
-||||||| 0d227b4... portfolio page gone, projects section created
+
 #projects {
     text-transform: uppercase;
     text-align: center;
 }
-=======
 
->>>>>>> parent of 0d227b4... portfolio page gone, projects section created
-||||||| 0d227b4... portfolio page gone, projects section created
-#projects {
-    text-transform: uppercase;
-    text-align: center;
-}
-=======
-
->>>>>>> parent of 0d227b4... portfolio page gone, projects section created
 .flex-about-me {
     position: relative;
     display: inline-flex;

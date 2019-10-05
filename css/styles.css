@@ -83,17 +83,7 @@ classes and id's.
   color:#2d3c49;
 }
 
-.upper {
-  /*Photo by Brooke Lark on Unsplash*/
-  height: 400px;
-  /*background-image: url("../img/yellow.jpg") ;*/
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
-}
 
 .topbar img {
   position: 10px 10px;
