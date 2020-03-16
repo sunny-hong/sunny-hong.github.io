@@ -26,7 +26,7 @@ hr.light {
 }
 
 a {
-    color: blue;
+    color: rgb(198, 107, 125);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -273,10 +273,17 @@ header .header-content .header-content-inner p {
 .bg-red {
     background-color: #f99;
 }
+
 .bg-pink {
     background-color: rgb(230,223,225); /* E6DFE1 */
-    background-size: contain;
     background-image: url("../img/Website Graphics2.png");
+    background-size: contain;
+    z-index: 0;
+}
+
+.bg-dots{
+  /* background-image: url("../img/pattern58.svg"); */
+
 }
 #projects {
     color: #373737;
@@ -318,8 +325,15 @@ header .header-content .header-content-inner p {
 .portfolio-box {
     display: block;
     position: relative;
+
     margin: 0 auto;
     max-width: 650px;
+    max-height: 270px;
+}
+.portfolio-image-size{
+  max-width: 650px;
+  max-height: 270px;
+  background-size: cover;
 }
 
 .portfolio-box .portfolio-box-caption {
